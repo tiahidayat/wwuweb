@@ -1,38 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:200,400,600");
 /* Typeography */
-/* line 27, main.scss */
+/* line 23, main.scss */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", sans-serif;
   font-weight: 100; }
 
-/* line 37, main.scss */
+/* line 32, main.scss */
 h1 {
   color: #003f87;
   font-size: 52px;
   letter-spacing: -1.5px;
   line-height: 1em; }
 
-/* line 44, main.scss */
+/* line 39, main.scss */
 h2 {
   color: #000;
   font-size: 25px; }
 
-/* line 49, main.scss */
+/* line 44, main.scss */
 h3 {
   color: #000;
   font-size: 18px; }
 
-/* line 54, main.scss */
+/* line 49, main.scss */
 a {
   text-decoration: none; }
 
 /* General */
-/* line 59, main.scss */
+/* line 54, main.scss */
 *,
 html {
   -webkit-box-sizing: border-box;
@@ -41,34 +40,34 @@ html {
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 68, main.scss */
+/* line 63, main.scss */
 body {
   background: #fff;
   color: #000;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Muli", sans-serif; }
 
-/* line 74, main.scss */
+/* line 69, main.scss */
 .page-wrapper {
   width: 100%;
   border-top: 10px solid #003f87; }
 
 /* Nav */
-/* line 81, main.scss */
+/* line 76, main.scss */
 .page-header-wrapper {
   content: '';
   display: table;
   margin: 0 auto;
   width: 1080px; }
-  /* line 89, main.scss */
+  /* line 84, main.scss */
   .page-header-wrapper .main-nav ul.menu {
     margin: 0;
     padding: 0;
     list-style: none; }
-    /* line 94, main.scss */
+    /* line 89, main.scss */
     .page-header-wrapper .main-nav ul.menu li.menu-item {
       display: inline-block;
       float: left; }
-      /* line 98, main.scss */
+      /* line 93, main.scss */
       .page-header-wrapper .main-nav ul.menu li.menu-item a {
         display: block;
         padding: 10px 20px;
@@ -80,42 +79,42 @@ body {
         -ms-transition: background 0.3s ease;
         -o-transition: background 0.3s ease;
         transition: background 0.3s ease; }
-        /* line 106, main.scss */
+        /* line 101, main.scss */
         .page-header-wrapper .main-nav ul.menu li.menu-item a:hover, .page-header-wrapper .main-nav ul.menu li.menu-item a.active-path {
           background: #c6db01; }
 
 /*  Content */
-/* line 117, main.scss */
+/* line 112, main.scss */
 .content {
   width: 100%; }
-  /* line 120, main.scss */
+  /* line 115, main.scss */
   .content .top-feature-wrapper {
     margin: 0 auto 60px;
     width: 1080px; }
-    /* line 124, main.scss */
+    /* line 119, main.scss */
     .content .top-feature-wrapper article img {
       width: 100%; }
-    /* line 128, main.scss */
+    /* line 123, main.scss */
     .content .top-feature-wrapper .top-feature-story-header {
       display: inline-block;
       position: relative;
       margin-top: -40px;
       padding-left: 15px; }
-      /* line 134, main.scss */
+      /* line 129, main.scss */
       .content .top-feature-wrapper .top-feature-story-header h2,
       .content .top-feature-wrapper .top-feature-story-header h3 {
         display: inline-block;
         margin: 0;
         color: #fff;
         font-weight: 400; }
-      /* line 142, main.scss */
+      /* line 137, main.scss */
       .content .top-feature-wrapper .top-feature-story-header h2 {
         display: inline-block;
         margin: 0;
         padding: 20px;
         background: #0097de;
         font-size: 27px; }
-      /* line 150, main.scss */
+      /* line 145, main.scss */
       .content .top-feature-wrapper .top-feature-story-header h3 {
         display: inline-block;
         margin: 0;
@@ -124,38 +123,38 @@ body {
         font-family: "Times New Roman", time, serif;
         font-size: 16px;
         font-style: italic; }
-  /* line 163, main.scss */
+  /* line 158, main.scss */
   .content .featured-stories-wrapper {
     content: '';
     display: table;
     padding: 35px 0;
     width: 100%;
     background: #f1f1f1; }
-    /* line 170, main.scss */
+    /* line 165, main.scss */
     .content .featured-stories-wrapper .featured-stories {
       margin: 0 auto;
       width: 1080px; }
-      /* line 174, main.scss */
+      /* line 169, main.scss */
       .content .featured-stories-wrapper .featured-stories ul {
         margin: 0;
         padding: 0;
         list-style: none;
         text-align: center; }
-        /* line 184, main.scss */
+        /* line 179, main.scss */
         .content .featured-stories-wrapper .featured-stories ul li {
           display: inline-block;
           float: left;
           margin-bottom: 30px;
           width: 25%;
           padding: 0 15px; }
-          /* line 191, main.scss */
+          /* line 186, main.scss */
           .content .featured-stories-wrapper .featured-stories ul li article.featured-story {
             text-align: left; }
-            /* line 194, main.scss */
+            /* line 189, main.scss */
             .content .featured-stories-wrapper .featured-stories ul li article.featured-story img {
               display: block;
               max-width: 100%; }
-            /* line 199, main.scss */
+            /* line 194, main.scss */
             .content .featured-stories-wrapper .featured-stories ul li article.featured-story .story-type {
               display: block;
               position: relative;
@@ -167,7 +166,7 @@ body {
               color: #003f87;
               font-size: 17px;
               line-height: 32px; }
-              /* line 211, main.scss */
+              /* line 206, main.scss */
               .content .featured-stories-wrapper .featured-stories ul li article.featured-story .story-type:before {
                 content: '';
                 position: absolute;
@@ -175,91 +174,95 @@ body {
                 width: 15px;
                 height: 32px;
                 background: url(../img/story-type-background.png) no-repeat left center/cover; }
-            /* line 221, main.scss */
+            /* line 216, main.scss */
             .content .featured-stories-wrapper .featured-stories ul li article.featured-story h2 {
               margin-bottom: 10px;
               font-weight: 600; }
-            /* line 226, main.scss */
+            /* line 221, main.scss */
             .content .featured-stories-wrapper .featured-stories ul li article.featured-story h3 {
               margin-top: 0;
               font-weight: 400; }
 
 @media screen and (max-width: 1100px) {
   /* Nav */
-  /* line 241, main.scss */
+  /* line 236, main.scss */
   .page-header-wrapper {
     width: 100%; }
 
   /*  Content */
-  /* line 248, main.scss */
+  /* line 243, main.scss */
   .content .top-feature-wrapper,
   .content .featured-stories-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
-  /* line 254, main.scss */
+  /* line 249, main.scss */
   .content .top-feature-wrapper {
     width: 100%; }
-  /* line 260, main.scss */
+  /* line 255, main.scss */
   .content .featured-stories-wrapper .featured-stories {
     width: 100%; } }
 @media screen and (max-width: 991px) {
   /*  Content */
-  /* line 274, main.scss */
+  /* line 269, main.scss */
   .content .top-feature-wrapper {
     width: 100%; }
-  /* line 278, main.scss */
+  /* line 273, main.scss */
   .content .top-feature-story-header {
     padding-right: 15px; }
-  /* line 282, main.scss */
+  /* line 277, main.scss */
   .content .featured-stories-wrapper .featured-stories ul li article.featured-story .story-type {
     font-size: 16px; } }
 @media screen and (max-width: 800px) {
-  /* line 292, main.scss */
+  /* line 287, main.scss */
   h1 {
     font-size: 36px; }
 
-  /* line 296, main.scss */
+  /* line 291, main.scss */
   h2 {
     font-size: 20px; }
 
-  /* line 300, main.scss */
+  /* line 295, main.scss */
   h3 {
     font-size: 16px; }
 
-  /* line 308, main.scss */
+  /* line 299, main.scss */
+  .page-header-wrapper .main-nav ul.menu li.menu-item a {
+    font-size: 16px; }
+
+  /* line 307, main.scss */
   .content .top-feature-wrapper .top-feature-story-header h2 {
     font-size: 18px; }
-  /* line 313, main.scss */
+  /* line 312, main.scss */
   .content .featured-stories-wrapper .featured-stories ul li {
     width: 50%; } }
 @media screen and (max-width: 600px) {
-  /* line 330, main.scss */
+  /* line 321, main.scss */
   .page-header-wrapper .main-nav ul.menu li.menu-item a {
     padding: 10px;
     font-size: 14px; }
 
-  /* line 343, main.scss */
+  /* line 330, main.scss */
   .content .top-feature-wrapper .top-feature-story-header h2 {
     padding: 10px; }
-  /* line 347, main.scss */
+  /* line 334, main.scss */
   .content .top-feature-wrapper .top-feature-story-header h3 {
     padding: 8px 10px; }
-  /* line 352, main.scss */
+  /* line 339, main.scss */
   .content .featured-stories-wrapper .featured-stories ul li {
     width: 100%; } }
 @media screen and (max-width: 480px) {
-  /* line 363, main.scss */
+  /* line 350, main.scss */
   .content .top-feature-wrapper .top-feature-story-header {
     margin-top: -20px; }
-  /* line 367, main.scss */
+  /* line 354, main.scss */
   .content .featured-stories-wrapper .featured-stories ul li {
     float: none;
     width: 100%; } }
 @media screen and (max-width: 320px) {
-  /* line 379, main.scss */
+  /* line 366, main.scss */
   .content .top-feature-wrapper .top-feature-story-header {
     margin-top: -20px; }
-  /* line 383, main.scss */
+  /* line 370, main.scss */
   .content .featured-stories-wrapper .featured-stories ul li {
     float: none;
     width: 100%; } }
