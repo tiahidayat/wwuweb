@@ -1,10 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Muli:200,400,600');
 
-$font-opensans	: "Open Sans", sans-serif;
-$font-muli		: "Muli", sans-serif;
-$font-serif		: "Poly", serif;
-
 $white 		: #fff;
 $black		: #000;
 $blue		: #003f87;
@@ -30,7 +26,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $font-muli;
 	font-weight: 100;
 }
 
@@ -68,7 +63,7 @@ html {
 body {
 	background: $white;
 	color: $black;
-	font-family: $font-opensans;
+	font-family: "Muli", sans-serif;
 }
 
 .page-wrapper {
@@ -152,7 +147,7 @@ body {
 				margin: 0;
 				padding: 8px 25px;
 				background: $blue;
-				font-family: "Times New Roman", time, serif;
+				font-family: "Times New Roman", serif;
 				font-size: 16px;
 				font-style: italic;
 			}
@@ -301,6 +296,10 @@ body {
 		font-size: 16px;
 	}
 
+	.page-header-wrapper .main-nav ul.menu li.menu-item a {
+		font-size: 16px;	
+	}
+
 	.content {
 
 		.top-feature-wrapper .top-feature-story-header {
@@ -319,21 +318,9 @@ body {
 
 @media screen and (max-width: 600px) {
 
-	.page-header-wrapper {
-
-		.main-nav {
-
-			ul.menu {
-
-				li.menu-item {
-
-					a {
-						padding: 10px;
-						font-size: 14px;
-					}
-				}
-			}
-		}
+	.page-header-wrapper .main-nav ul.menu li.menu-item a {
+		padding: 10px;
+		font-size: 14px;
 	}
 
 	.content {
