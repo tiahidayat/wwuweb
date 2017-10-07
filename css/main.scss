@@ -296,6 +296,10 @@ body {
 		font-size: 16px;
 	}
 
+	.page-header-wrapper .main-nav ul.menu li.menu-item a {
+		font-size: 16px;
+	}
+
 	.content {
 
 		.top-feature-wrapper .top-feature-story-header {
@@ -314,21 +318,9 @@ body {
 
 @media screen and (max-width: 600px) {
 
-	.page-header-wrapper {
-
-		.main-nav {
-
-			ul.menu {
-
-				li.menu-item {
-
-					a {
-						padding: 10px;
-						font-size: 14px;
-					}
-				}
-			}
-		}
+	.page-header-wrapper .main-nav ul.menu li.menu-item a {
+		padding: 10px;
+		font-size: 14px;
 	}
 
 	.content {
