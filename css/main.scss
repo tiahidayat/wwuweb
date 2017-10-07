@@ -16,7 +16,7 @@ $width-full	: 100%;
 	-moz-transition:	$args;
 	-ms-transition:		$args;
 	-o-transition:		$args;
-	transition:			$args;
+	transition:		$args;
 }
 
 /* Typeography */
@@ -52,11 +52,11 @@ a {
 /* General */
 *,
 html {
-	-webkit-box-sizing: border-box;
+	-webkit-box-sizing:	border-box;
 	-moz-box-sizing:	border-box;
 	-ms-box-sizing:		border-box;
 	-o-box-sizing:		border-box;
-	box-sizing:			border-box;
+	box-sizing:		border-box;
 }
 
 body {
@@ -296,7 +296,11 @@ body {
 	}
 
 	.page-header-wrapper .main-nav ul.menu li.menu-item a {
+<<<<<<< HEAD
 		font-size: 16px;	
+=======
+		font-size: 16px;
+>>>>>>> 234d18d83498b9e3aac15ac73fdc7d62f89e03b9
 	}
 
 	.content {
