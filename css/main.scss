@@ -191,12 +191,10 @@ body {
 						}
 
 						.story-type {
-							display: block;
+							display: inline-block;
 							position: relative;
-							margin: -32px 0 0 2px;
 							padding: 0 15px;
-							width: max-content;
-							height: 32px;
+							top: -32px;
 							background:$green;
 							color: $blue;
 							font-size: 17px;
@@ -212,14 +210,18 @@ body {
 							}
 						}
 
-						h2 {
-							margin-bottom: 10px;
-							font-weight: 600;
-						}
+						.featured-story-header {
+							margin-top: -40px;
 
-						h3 {
-							margin-top: 0;
-							font-weight: 400;
+							h2 {
+								margin-bottom: 10px;
+								font-weight: 600;
+							}
+
+							h3 {
+								margin-top: 0;
+								font-weight: 400;
+							}
 						}
 					}
 				}
