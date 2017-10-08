@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:200,400,600");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 /* Typeography */
 h1,
 h2,
@@ -183,6 +184,37 @@ body {
   h3 {
     font-size: 16px; }
 
+  .page-header-wrapper .main-nav {
+    display: block;
+    height: 50px;
+    background: #0097de;
+    cursor: pointer; }
+    .page-header-wrapper .main-nav:before {
+      content: '\f0c9';
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      color: #fff;
+      font-family: 'FontAwesome';
+      font-size: 32px; }
+    .page-header-wrapper .main-nav ul.menu {
+      position: relative;
+      top: -300px;
+      background: #fff;
+      opacity: 0;
+      -webkit-transition: opacity 0.3s ease;
+      -moz-transition: opacity 0.3s ease;
+      -ms-transition: opacity 0.3s ease;
+      -o-transition: opacity 0.3s ease;
+      transition: opacity 0.3s ease;
+      z-index: 999; }
+      .page-header-wrapper .main-nav ul.menu li.menu-item {
+        display: block;
+        float: none; }
+    .page-header-wrapper .main-nav:hover > ul.menu {
+      top: 50px;
+      opacity: 1; }
+
   .page-header-wrapper .main-nav ul.menu li.menu-item a {
     font-size: 16px;
     font-size: 16px; }
@@ -192,10 +224,6 @@ body {
   .content .featured-stories-wrapper .featured-stories ul li {
     width: 50%; } }
 @media screen and (max-width: 600px) {
-  .page-header-wrapper .main-nav ul.menu li.menu-item a {
-    padding: 10px;
-    font-size: 14px; }
-
   .content .top-feature-wrapper .top-feature-story-header h2 {
     padding: 10px; }
   .content .top-feature-wrapper .top-feature-story-header h3 {

@@ -1,5 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Muli:200,400,600');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 $white 		: #fff;
 $black		: #000;
@@ -296,6 +297,45 @@ body {
 		font-size: 16px;
 	}
 
+	.page-header-wrapper {
+
+		.main-nav {
+			display: block;
+			height: 50px;
+			background: $blue-lt;
+			cursor: pointer;
+
+			&:before {
+				content: '\f0c9';
+				position: absolute;
+				top: 18px;
+				right: 20px;
+				color: $white;
+				font-family: 'FontAwesome';
+				font-size: 32px;
+			}
+
+			ul.menu {
+				position: relative;
+				top: -300px;
+				background: $white;
+				opacity: 0;
+				@include transition(opacity .3s ease);
+				z-index: 999;
+
+				li.menu-item {
+					display: block;
+					float: none;
+				}
+			}
+
+			&:hover > ul.menu {
+				top: 50px;
+				opacity: 1;
+			}
+		}
+	}
+
 	.page-header-wrapper .main-nav ul.menu li.menu-item a {
 		font-size: 16px;	
 		font-size: 16px;
@@ -318,11 +358,6 @@ body {
 
 
 @media screen and (max-width: 600px) {
-
-	.page-header-wrapper .main-nav ul.menu li.menu-item a {
-		padding: 10px;
-		font-size: 14px;
-	}
 
 	.content {
 
