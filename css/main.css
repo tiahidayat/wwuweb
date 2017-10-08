@@ -128,12 +128,10 @@ body {
               display: block;
               max-width: 100%; }
             .content .featured-stories-wrapper .featured-stories ul li article.featured-story .story-type {
-              display: block;
+              display: inline-block;
               position: relative;
-              margin: -32px 0 0 2px;
               padding: 0 15px;
-              width: max-content;
-              height: 32px;
+              top: -32px;
               background: #c6db01;
               color: #003f87;
               font-size: 17px;
@@ -145,12 +143,14 @@ body {
                 width: 15px;
                 height: 32px;
                 background: url(../img/story-type-background.png) no-repeat left center/cover; }
-            .content .featured-stories-wrapper .featured-stories ul li article.featured-story h2 {
-              margin-bottom: 10px;
-              font-weight: 600; }
-            .content .featured-stories-wrapper .featured-stories ul li article.featured-story h3 {
-              margin-top: 0;
-              font-weight: 400; }
+            .content .featured-stories-wrapper .featured-stories ul li article.featured-story .featured-story-header {
+              margin-top: -40px; }
+              .content .featured-stories-wrapper .featured-stories ul li article.featured-story .featured-story-header h2 {
+                margin-bottom: 10px;
+                font-weight: 600; }
+              .content .featured-stories-wrapper .featured-stories ul li article.featured-story .featured-story-header h3 {
+                margin-top: 0;
+                font-weight: 400; }
 
 @media screen and (max-width: 1100px) {
   /* Nav */
